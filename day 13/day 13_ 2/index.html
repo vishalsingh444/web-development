@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Specificity</title>
+    <style>
+        h1{
+            color: aqua
+        }
+        .cred{
+            color: red;
+        }
+        h1.cyellow{
+            color : yellow;
+        }
+        .cpurple{
+            color: purple;
+        }
+        /* [data-x=a]{
+            color: maroon;
+        } */
+
+    </style>
+</head>
+<body>
+    <h1 class = "cred cyellow cpurple" data-x = "a">CSS Specificity</h1>
+</body>
+</html>
