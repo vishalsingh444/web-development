@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+
+        html{
+            font-size: 12px;
+        }
+        .box{
+            box-sizing: border-box;
+            border: 2px solid black;
+            /* width: 1280px; */
+            width: 80vw;
+            height: 10vh;
+            margin: auto;
+            background-color: aquamarine;
+        }
+
+        .container{
+            box-sizing: border-box;
+            border: 2px solid black;
+            /* width: 1280px; */
+            width: 80vw;
+            min-height: 80vh;
+            margin: 23px auto;
+            font-size: 16px;
+            background-color: aquamarine;
+        }
+        
+        .container > div{
+            font-size: 2em;
+            border: 2px solid red;
+            width: 50%;
+        }
+
+        .container > div > div{
+            border: 2px solid blue;
+            width: 50%;
+        }
+    </style>
+</head>
+<body>
+    <div class="box">
+        This is a box
+    </div>
+
+    <div class="container">
+        <div>
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolor maxime, itaque quis architecto velit est expedita laborum, quasi eius iste tenetur quam? Veritatis quibusdam non repudiandae hic fugiat minus nihil aut quis magnam autem? Nesciunt, id. Sequi similique laborum dignissimos mollitia molestias reiciendis ipsam, facilis impedit natus cumque, vero hic numquam nisi aliquam aliquid possimus et?
+            <div>
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Facilis facere voluptas dolor illo quidem ducimus harum voluptatibus impedit nesciunt reiciendis. Quisquam, incidunt hic!
+            </div>
+        </div>
+        
+    </div>
+
+</body>
+</html>
