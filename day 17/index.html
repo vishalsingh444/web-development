@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Exercise 5</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        body{
+            position: relative;
+        }
+        nav{
+            width: 100%;
+            background-color: rgb(175, 88, 222);
+            color: white;
+            padding: 12px;
+            position: fixed
+        }
+        nav ul li{
+            list-style: none;
+            display: inline;
+            padding: 16px;
+            position: sticky;
+        }
+        ul li{
+            padding-top: 12px;
+            padding-left: 12px;
+        }
+        .div.box{
+            display: inline-flex
+        }
+        .box{
+            width: 300px;
+            height: 300px;
+            border: 2px solid;
+            background-color: rgb(145, 206, 235);
+            margin: 40px;
+            
+        }
+        .boxes{
+            padding-top: 50px;
+            display: flex;
+            height: 700px;
+            background-color: rgb(210, 147, 212);
+        }
+        .content{
+            border: 2px solid;
+            border-radius: 16px;
+            padding: 16px;
+        }
+        .logo{
+            width: 100%;
+        }
+        .logo img{
+            top: 500px;
+            left: 90vw;
+            width: 50px;
+            height: 50px;
+            border-radius: 35px;
+            
+            position:fixed;
+        }
+    </style>
+  </head>
+  <body>
+    <header>
+      <nav >
+        <ul>
+          <li>Home</li>
+          <li>About</li>
+          <li>Services</li>
+          <li>Contact</li>
+        </ul>
+      </nav>
+    </header>
+    <section>
+        <div class="boxes">
+            <div class="box"></div>
+            <div class="box"></div>
+        </div>
+        <div class="content">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum animi suscipit aspernatur est pariatur impedit ipsam! Soluta natus, pariatur tempora inventore itaque magni, similique eligendi consectetur quaerat neque, esse vel.
+        </div>
+        <div class="logo">
+            <img src="https://images.unsplash.com/photo-1694939200168-1eab019da48d?auto=format&fit=crop&q=60&w=600&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHwxNHx8fGVufDB8fHx8fA%3D%3D" alt="image.jpg">
+        </div>
+    </section>
+    <footer>
+        <ul>
+            <li>Home</li>
+            <li>About</li>
+            <li>Services</li>
+            <li>Contact</li>
+        </ul>
+    </footer>
+  </body>
+</html>
